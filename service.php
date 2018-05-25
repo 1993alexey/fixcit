@@ -80,9 +80,9 @@
       <div class="col-md-3 col-sm-6">
         <div class="serviceBox">
           <div class="service-icon"><i class="fa fi-guide-dog"></i></div>
-          <h3 class="title">Walk Your Doggy</h3>
+          <h3 class="title">Dog Care</h3>
           <div class="services">
-            <a href="#">Walk Your Dog</a>
+            <a href="#">Choose Care Type</a>
           </div>
         </div>
       </div>
