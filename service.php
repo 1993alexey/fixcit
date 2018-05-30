@@ -18,43 +18,22 @@
   <div style="height:90px"></div>
   <div class="container">
     <div class="row">
-      <div class="col-md-3 col-sm-6">
-        <div class="serviceBox">
-          <div class="service-icon"><i class="fa fa-comments"></i></div>
-          <h3 class="title">Tutoring</h3>
-          <div class="services">
-            <a href="math.php">Math</a>
-            <a href="biology.php">Biology</a>
-            <a href="chinese.php">Chinese</a>
-            <a href="russian.php">Russian</a>
-            <a href="english.php">English</a>
+      <a href="tutoring.php">
+        <div class="col-md-4 col-sm-6">
+          <div class="serviceBox">
+            <div class="service-icon"><i class="fa fa-comments"></i></div>
+            <h3 class="title">Tutoring</h3>
           </div>
         </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="serviceBox">
-          <div class="service-icon"><i class="fa fa-shower"></i></div>
-          <h3 class="title">Vehicle Wash</h3>
-          <div class="services">
-            <a href="/wash.php">Razor, 4-Wheeler</a>
-            <a href="trallor.php">Trallor</a>
-            <a href="boat.php">Boat</a>
-            <a href="car.php">Car</a>
+      </a>
+      <a href="wash2.php">
+        <div class="col-md-4 col-sm-6">
+          <div class="serviceBox">
+            <div class="service-icon"><i class="fa fa-shower"></i></div>
+            <h3 class="title">Vehicle Wash</h3>
           </div>
         </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="serviceBox">
-          <div class="service-icon"><i class="fa fa-leaf"></i></div>
-          <h3 class="title">Land Scaping</h3>
-          <div class="services">
-            <a href="#">Lawn Mowing</a>
-            <a href="#">Irrigation</a>
-            <a href="#">Weeding</a>
-            <a href="#">Planting</a>
-          </div>
-        </div>
-      </div>
+      </a>
       <!--<div class="col-md-3 col-sm-6">
         <div class="serviceBox">
           <div class="service-icon"><i class="fa mega-octicon octicon-package" style="position:absolute; left:20px; top: 20px;"></i></div>
@@ -77,15 +56,14 @@
           </div>
         </div>
       </div>-->
-      <div class="col-md-3 col-sm-6">
-        <div class="serviceBox">
-          <div class="service-icon"><i class="fa fi-guide-dog"></i></div>
-          <h3 class="title">Dog Care</h3>
-          <div class="services">
-            <a href="#">Choose Care Type</a>
+      <a href="biology.php" class="service-box-link">
+        <div class="col-md-4 col-sm-6">
+          <div class="serviceBox">
+              <div class="service-icon"><i class="fa fi-guide-dog"></i></div>
+              <h3 class="title">Dog Care</h3>
           </div>
         </div>
-      </div>
+      </a>
     </div>
     <div class="row" style="margin-top:30px;">
       <!--<div class="col-md-3 col-sm-6">
@@ -97,26 +75,30 @@
           </div>
         </div>
       </div>-->
-      <div class="col-md-3 col-sm-6 col-md-push-3">
-        <div class="serviceBox">
-          <div class="service-icon"><i class="fa fa-home"></i></div>
-          <h3 class="title">Exterior Home Care</h3>
-          <div class="services">
-            <a href="#">Sidewalk Sweeping</a>
-            <a href="#">Rain Gutters</a>
-            <a href="#">Windows</a>
+      <a href="exterior-home-care.php">
+        <div class="col-md-4 col-sm-6">
+          <div class="serviceBox">
+            <div class="service-icon"><i class="fa fa-home"></i></div>
+            <h3 class="title">Exterior Home Care</h3>
           </div>
         </div>
-      </div>
-      <div class="col-md-3 col-sm-6 col-md-push-3">
-        <div class="serviceBox">
-          <div class="service-icon"><i class="fas fa-table-tennis"></i></div>
-          <h3 class="title">Practice</h3>
-          <div class="services">
-            <a href="#">Choose Practice Type</a>
+      </a>
+      <a href="practice.php">
+        <div class="col-md-4 col-sm-6">
+          <div class="serviceBox">
+            <div class="service-icon"><i class="fas fa-table-tennis"></i></div>
+            <h3 class="title">Practice</h3>
           </div>
         </div>
-      </div>
+      </a>
+      <a href="land-scaping.php">
+        <div class="col-md-4 col-sm-6">
+          <div class="serviceBox">
+            <div class="service-icon"><i class="fa fa-leaf"></i></div>
+            <h3 class="title">Land Scaping</h3>
+          </div>
+        </div>
+      </a>
       <!--<div class="col-md-3 col-sm-6">
         <div class="serviceBox">
           <div class="service-icon"><i class="fa fa-comments"></i></div>

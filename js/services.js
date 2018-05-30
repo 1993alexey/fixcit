@@ -27,3 +27,7 @@ $("#type").change(function(){
     $("#specifics").attr("disabled", "");
   }
 })
+
+$(".vehicle-select").change(function(){
+  $(".content-container").removeClass("tg-hide");
+})
