@@ -364,3 +364,15 @@ body{
 .service-content-wrapper .inner-content-container .content-title {
   margin-top: 0;
 }
+
+.service-content-wrapper .inner-content-container .day-time {
+  
+}
+
+.service-content-wrapper .inner-content-container .vertical-positioning {
+  width: 200px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
