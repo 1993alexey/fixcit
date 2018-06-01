@@ -49,7 +49,7 @@
                         </div>
                         <div class="vertical-positioning">
                             <label for="specifics">
-                                <h3 class="content-title">Type Specific</h3>
+                                <h3 class="content-title">Type Specifics</h3>
                             </label>
                             <select class="form-control type" id="specifics" disabled>
                                 <option>Select Specifics</option>
