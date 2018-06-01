@@ -7,27 +7,42 @@ $(".row-time li").click(function() {
   $(this).parent().parent().find("button > .display").text(value);
 })
 
-$("#type").change(function(){
-  // Check for availability of specifics
-  const noSpecifics = $("#type > option:selected").attr('no-specifics');
-  if (typeof noSpecifics !== typeof undefined && noSpecifics !== false) {
-    $("#specifics").parent().addClass("tg-hide");
-    return;
-  } else {
-    $("#specifics").parent().removeClass("tg-hide");
-  }
-  var typeSelected = $("#type > option:selected").val();
-  const service = $("#type").attr("service");
-  var filePath = '/html/' + service + "-" + typeSelected + '-specifics.html';
-  if (typeSelected != 0) {
-    $('#specifics').load(filePath);
-    $("#specifics").removeAttr("disabled");
-  } else {
-    $("#specifics").val(0);
-    $("#specifics").attr("disabled", "");
-  }
+$("#type").change(function() {
+    // var specificsDisplay = toggleSelectGroup($(this).find(":selected"), $("#specifics"));
+
+    const typeVal = $("#type > option:selected").val();
+    const vehicleVal = $("#vehicle > option:selected").val();
+    var specifics = $("#specifics");
+    if (typeVal != 0){
+        const filePath = '/html/' + vehicleVal + "-" + typeVal + '-specifics.html';
+        specifics.load(filePath);
+    } else {
+        specifics.val(0);
+    }
 })
 
-$(".vehicle-select").change(function(){
-  $(".content-container").removeClass("tg-hide");
-})
+$("#vehicle").change(function() {
+    const vehicleVal = $("#vehicle > option:selected").val();
+    var type = $("#type");
+    if (vehicleVal != 0){
+        type.parent().show();
+        const filePath = '/html/' + vehicleVal + '-types.html';
+        type.load(filePath);
+    } else {
+        type.val(0);
+        type.trigger('change');
+        type.parent().hide();
+    }
+});
+
+function toggleSelectGroup(checkItem, toggleItem){
+    // Check for availability of specifics
+    const noSpecifics = checkItem.attr('no-specifics');
+    if (typeof noSpecifics !== typeof undefined && noSpecifics !== false) {
+        toggleItem.parent().hide();
+        return 0;
+    } else {
+        toggleItem.parent().show();
+        return 1;
+    }
+}

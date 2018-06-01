@@ -29,29 +29,29 @@
                     <div class="form-group">
                         <div class="vertical-positioning">
                             <label for="vehicle"><h3 class="tg-inline-blk content-title">Vehicle</h3></label>
-                            <select class="form-control vehicle-type" id="vehicle" service="razor">
+                            <select class="form-control vehicle-type" id="vehicle">
                                 <option value="0">Select Vehicle</option>
                                 <option value="razor">Razor</option>
                                 <option value="trallor">Trallor</option>
                                 <option value="car">Car</option>
-                                <option value="boat">boat</option>
+                                <option value="boat">Boat</option>
                             </select>
                         </div>
-                            <div class="vertical-positioning">
+                        <div class="vertical-positioning tg-hide">
                             <label for="type">
                                 <h3 class="content-title">Type</h3>
                             </label>
-                            <select class="form-control type" service="razor" id="type">
+                            <select class="form-control type" id="type">
                                 <option value="0">Select Type</option>
                                 <option value="atv">ATV</option>
                                 <option value="utv">UTV</option>
                             </select>
                         </div>
-                        <div class="vertical-positioning">
+                        <div class="vertical-positioning tg-hide">
                             <label for="specifics">
                                 <h3 class="content-title">Type Specifics</h3>
                             </label>
-                            <select class="form-control type" id="specifics" disabled>
+                            <select class="form-control type" id="specifics">
                                 <option>Select Specifics</option>
                             </select>
                         </div>

@@ -307,10 +307,6 @@ body{
   margin-bottom: 50px;
 }
 
-.tg-hide {
-  display: none;
-}
-
 /*.vehicle-type {
   margin: 0 auto;
   width: 250px;
@@ -377,4 +373,6 @@ body{
   display: inline-block;
 }
 
-
+.tg-hide {
+    display: none;
+}

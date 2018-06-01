@@ -27,7 +27,7 @@
           </select>
           </div>
     </div>
-    <div class="content-container tg-hide">
+    <div class="content-container">
       <div class="row row-time">
         <div class="col-sm-6 col-md-3">
           <div class="day-time">
