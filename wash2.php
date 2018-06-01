@@ -16,7 +16,7 @@
   <?php include_once 'header.php'; ?>
   <div style="height:90px"></div>
   <div class="container">
-    <div class="service-title">Trallor Wash</div>
+    <div class="service-title">Wash</div>
     <div class="row">
       <div class="col-md-8 col-md-push-2">
         <div class="service-content-wrapper">
@@ -25,14 +25,38 @@
               <div class="number">1</div>
             </div>
             <div class="inner-content-container">
-              <h3 class="tg-inline-blk content-title">Vehicle Type</h3>
-              <select class="form-control vehicle-type" service="razor">
-                <option value="0">Select Vehicle</option>
-                <option value="razor">Razor</option>
-                <option value="trallor">Trallor</option>
-                <option value="car">Car</option>
-                <option value="boat">boat</option>
-              </select>
+                <form>
+                    <div class="form-group">
+                        <div class="vertical-positioning">
+                            <label for="vehicle"><h3 class="tg-inline-blk content-title">Vehicle</h3></label>
+                            <select class="form-control vehicle-type" id="vehicle" service="razor">
+                                <option value="0">Select Vehicle</option>
+                                <option value="razor">Razor</option>
+                                <option value="trallor">Trallor</option>
+                                <option value="car">Car</option>
+                                <option value="boat">boat</option>
+                            </select>
+                        </div>
+                            <div class="vertical-positioning">
+                            <label for="type">
+                                <h3 class="content-title">Type</h3>
+                            </label>
+                            <select class="form-control type" service="razor" id="type">
+                                <option value="0">Select Type</option>
+                                <option value="atv">ATV</option>
+                                <option value="utv">UTV</option>
+                            </select>
+                        </div>
+                        <div class="vertical-positioning">
+                            <label for="specifics">
+                                <h3 class="content-title">Type Specific</h3>
+                            </label>
+                            <select class="form-control type" id="specifics" disabled>
+                                <option>Select Specifics</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
             </div>
           </div>
           <div class="service-inner-wrapper">
@@ -85,84 +109,13 @@
                     </ul>
                   </div>
                   <button class="btn btn-default meridiems">AM</button>
-                </div><!--
-                <h3 class="tg-inline-blk content-title">Day</h3>
-                <input class="form-control date" type="date">
-                <h3 class="tg-inline-blk content-title">Time</h3>
-                <br>
-                <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><span class="display">12</span>
-                  <span class="caret"></span></button>
-                  <ul class="dropdown-menu hours">
-                    <li>01</li>
-                    <li>02</li>
-                    <li>03</li>
-                    <li>04</li>
-                    <li>05</li>
-                    <li>06</li>
-                    <li>07</li>
-                    <li>08</li>
-                    <li>09</li>
-                    <li>10</li>
-                    <li>11</li>
-                    <li>12</li>
-                  </ul>
                 </div>
-                <span class="time-separator">:</span>
-                <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><span class="display">00</span>
-                  <span class="caret"></span></button>
-                  <ul class="dropdown-menu minutes">
-                    <li>00</li>
-                    <li>05</li>
-                    <li>10</li>
-                    <li>15</li>
-                    <li>20</li>
-                    <li>25</li>
-                    <li>30</li>
-                    <li>35</li>
-                    <li>40</li>
-                    <li>45</li>
-                    <li>50</li>
-                    <li>55</li>
-                  </ul>
-                </div>
-                <button class="btn btn-default meridiems">AM</button>-->
               </div>
             </div>
           </div>
           <div class="service-inner-wrapper">
             <div class="step-number">
               <div class="number">3</div>
-            </div>
-            <div class="inner-content-container">
-              <form>
-                <div class="form-group">
-                  <div class="vertical-positioning">
-                    <label for="sel1">
-                      <h3 class="content-title">Type</h3>
-                    </label>
-                    <select class="form-control type" service="razor" id="type">
-                      <option value="0">Select Type</option>
-                      <option value="atv">ATV</option>
-                      <option value="utv">UTV</option>
-                    </select>
-                  </div>
-                  <div class="vertical-positioning">
-                    <label for="sel1">
-                      <h3 class="content-title">Type Specific</h3>
-                    </label>
-                    <select class="form-control type" id="specifics" disabled>
-                      <option>Select Specifics</option>
-                    </select>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="service-inner-wrapper">
-            <div class="step-number">
-              <div class="number">4</div>
             </div>
             <div class="inner-content-container">
               <h3 id="move-down" class="content-title">Additional Options</h3>
@@ -176,7 +129,7 @@
           </div>
           <div class="service-inner-wrapper">
             <div class="step-number">
-              <div class="number">5</div>
+              <div class="number">4</div>
             </div>
             <div class="inner-content-container">
               <label for="comment">
