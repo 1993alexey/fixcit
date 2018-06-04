@@ -16,104 +16,139 @@
   <?php include_once 'header.php'; ?>
   <div style="height:90px"></div>
   <div class="container">
+    <div class="service-title">Wash</div>
     <div class="row">
-      <div class="vehicle-type">
-          <select class="form-control vehicle-select" service="razor">
-            <option value="0">Select Vehicle</option>
-            <option value="razor">Razor</option>
-            <option value="trallor">Trallor</option>
-            <option value="car">Car</option>
-            <option value="boat">boat</option>
-          </select>
-          </div>
-    </div>
-    <div class="content-container">
-      <div class="row row-time">
-        <div class="col-sm-6 col-md-3">
-          <div class="day-time">
-            <h3 class="tg-inline-blk">Day</h3>
-            <input class="form-control date" type="date" >
-            <h3 class="tg-inline-blk">Time</h3>
-            <br>
-            <div class="dropdown">
-              <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><span class="display">12</span>
-              <span class="caret"></span></button>
-              <ul class="dropdown-menu hours">
-                <li>01</li>
-                <li>02</li>
-                <li>03</li>
-                <li>04</li>
-                <li>05</li>
-                <li>06</li>
-                <li>07</li>
-                <li>08</li>
-                <li>09</li>
-                <li>10</li>
-                <li>11</li>
-                <li>12</li>
-              </ul>
+      <div class="col-md-8 col-md-push-2">
+        <div class="service-content-wrapper">
+          <div class="service-inner-wrapper">
+            <div class="step-number">
+              <div class="number">1</div>
             </div>
-            <span class="time-separator">:</span>
-            <div class="dropdown">
-              <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><span class="display">00</span>
-              <span class="caret"></span></button>
-              <ul class="dropdown-menu minutes">
-                <li>00</li>
-                <li>05</li>
-                <li>10</li>
-                <li>15</li>
-                <li>20</li>
-                <li>25</li>
-                <li>30</li>
-                <li>35</li>
-                <li>40</li>
-                <li>45</li>
-                <li>50</li>
-                <li>55</li>
-              </ul>
+            <div class="inner-content-container">
+                <form>
+                    <div class="form-group">
+                        <div class="vertical-positioning">
+                            <label for="vehicle"><h3 class="tg-inline-blk content-title">Vehicle</h3></label>
+                            <select class="form-control vehicle-type" id="vehicle">
+                                <option value="0">Select Vehicle</option>
+                                <option value="razor">Razor</option>
+                                <option value="trallor">Trallor</option>
+                                <option value="car">Car</option>
+                                <option value="boat">Boat</option>
+                            </select>
+                        </div>
+                        <div class="vertical-positioning" style="display: none">
+                            <label for="type">
+                                <h3 class="content-title">Type</h3>
+                            </label>
+                            <select class="form-control type" id="type">
+                                <option value="0">Select Type</option>
+                                <option value="atv">ATV</option>
+                                <option value="utv">UTV</option>
+                            </select>
+                        </div>
+                        <div class="vertical-positioning" style="display: none">
+                            <label for="specifics">
+                                <h3 class="content-title">Type Specifics</h3>
+                            </label>
+                            <select class="form-control type" id="specifics">
+                                <option>Select Specifics</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <button class="btn btn-default meridiems">AM</button>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <form>
-              <div class="form-group">
-                <label for="sel1"><h3>Type</h3></label>
-                <select class="form-control type" service="razor" id="type">
-                  <option value="0">Select Type</option>
-                  <option value="atv">ATV</option>
-                  <option value="utv">UTV</option>
-                </select>
-                <label for="sel1"><h3>Type Specific</h3></label>
-                <select class="form-control type" id="specifics" disabled>
-                  <option>Select Specifics</option>
-                </select>
+          <div class="service-inner-wrapper">
+            <div class="step-number">
+              <div class="number">2</div>
+            </div>
+            <div class="inner-content-container">
+              <div class="day-time">
+                <div class="day vertical-positioning">
+                  <h3 class="content-title">Day</h3>
+                  <input class="form-control date" type="date">
+                </div>
+                <div class="time vertical-positioning">
+                  <h3 class="content-title">Time</h3>
+                  <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><span class="display">12</span>
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu hours">
+                      <li>01</li>
+                      <li>02</li>
+                      <li>03</li>
+                      <li>04</li>
+                      <li>05</li>
+                      <li>06</li>
+                      <li>07</li>
+                      <li>08</li>
+                      <li>09</li>
+                      <li>10</li>
+                      <li>11</li>
+                      <li>12</li>
+                    </ul>
+                  </div>
+                  <span class="time-separator">:</span>
+                  <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><span class="display">00</span>
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu minutes">
+                      <li>00</li>
+                      <li>05</li>
+                      <li>10</li>
+                      <li>15</li>
+                      <li>20</li>
+                      <li>25</li>
+                      <li>30</li>
+                      <li>35</li>
+                      <li>40</li>
+                      <li>45</li>
+                      <li>50</li>
+                      <li>55</li>
+                    </ul>
+                  </div>
+                  <button class="btn btn-default meridiems">AM</button>
+                </div>
               </div>
-            </form>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <h3 id="move-down">Additional Options</h3>
-          <div class="checkbox vacuuming">
-            <label><input type="checkbox" value="vacuuming">Vacuuming</label>
+            </div>
           </div>
-          <div class="checkbox drying">
-            <label><input type="checkbox" value="drying">Drying</label>
+          <div class="service-inner-wrapper">
+            <div class="step-number">
+              <div class="number">3</div>
+            </div>
+            <div class="inner-content-container">
+              <h3 class="content-title">Additional Options</h3>
+              <div class="checkbox vacuuming">
+                <label><input type="checkbox" value="vacuuming">Vacuuming</label>
+              </div>
+              <div class="checkbox drying">
+                <label><input type="checkbox" value="drying">Drying</label>
+              </div>
+                <div class="checkbox drying">
+                    <label><input type="checkbox" value="drying">Drying</label>
+                </div>
+                <div class="checkbox drying">
+                    <label><input type="checkbox" value="drying">Drying</label>
+                </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="form-group">
-            <label for="comment"><h3>Comment:</h3></label>
-            <textarea class="form-control" rows="5" id="comment"></textarea>
-          </div> 
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 col-md-3 col-md-offset-9">
-          <div class="tg-center">
-            <br>
-              <h4 class="price-tag"><span>Total: </span><span class="price-amount">5.50</span>$</h4>
-              <button type="button" class="btn btn-success btn-lg">Proceed</button>
-        </div>
+          <div class="service-inner-wrapper">
+            <div class="step-number">
+              <div class="number">4</div>
+            </div>
+            <div class="inner-content-container">
+              <label for="comment">
+                <h3 class="content-title">Comment:</h3>
+              </label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+              <div class="tg-center">
+                <br>
+                <h4 class="price-tag"><span>Total: </span><span class="price-amount">5.50</span>$</h4>
+                <button type="button" class="btn btn-success btn-lg">Proceed</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

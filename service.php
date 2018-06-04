@@ -26,7 +26,7 @@
           </div>
         </div>
       </a>
-      <a href="wash2.php">
+      <a href="wash.php">
         <div class="col-md-4 col-sm-6">
           <div class="serviceBox">
             <div class="service-icon"><i class="fa fa-shower"></i></div>
