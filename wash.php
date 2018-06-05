@@ -22,7 +22,7 @@
         <div class="service-content-wrapper">
           <div class="service-inner-wrapper">
             <div class="step-number">
-              <div class="number">1</div>
+              <div class="number"></div>
             </div>
             <div class="inner-content-container">
                 <form>
@@ -32,7 +32,7 @@
                             <select class="form-control vehicle-type" id="vehicle">
                                 <option value="0">Select Vehicle</option>
                                 <option value="razor">Razor</option>
-                                <option value="trallor">Trallor</option>
+                                <option value="trailer">Trailer</option>
                                 <option value="car">Car</option>
                                 <option value="boat">Boat</option>
                             </select>
@@ -61,7 +61,7 @@
           </div>
           <div class="service-inner-wrapper">
             <div class="step-number">
-              <div class="number">2</div>
+              <div class="number"></div>
             </div>
             <div class="inner-content-container">
               <div class="day-time">
@@ -113,29 +113,18 @@
               </div>
             </div>
           </div>
-          <div class="service-inner-wrapper">
+          <div class="service-inner-wrapper add-options" style="display: none">
             <div class="step-number">
-              <div class="number">3</div>
+              <div class="number"></div>
             </div>
             <div class="inner-content-container">
               <h3 class="content-title">Additional Options</h3>
-              <div class="checkbox vacuuming">
-                <label><input type="checkbox" value="vacuuming">Vacuuming</label>
-              </div>
-              <div class="checkbox drying">
-                <label><input type="checkbox" value="drying">Drying</label>
-              </div>
-                <div class="checkbox drying">
-                    <label><input type="checkbox" value="drying">Drying</label>
-                </div>
-                <div class="checkbox drying">
-                    <label><input type="checkbox" value="drying">Drying</label>
-                </div>
+                <div class="add-options-container"></div>
             </div>
           </div>
           <div class="service-inner-wrapper">
             <div class="step-number">
-              <div class="number">4</div>
+              <div class="number"></div>
             </div>
             <div class="inner-content-container">
               <label for="comment">

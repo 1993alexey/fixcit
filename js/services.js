@@ -16,7 +16,7 @@ $(".meridiems").click(function() {
   $(this).text($(this).text() == 'PM' ? 'AM' : 'PM');
 })
 
-$(".row-time li").click(function() {
+$(".day-time .time li").click(function() {
   var value = $(this).text();
   $(this).parent().parent().find("button > .display").text(value);
 })
@@ -39,17 +39,26 @@ $("#type").change(function() {
 
 $("#vehicle").change(function() {
     const vehicleVal = $("#vehicle > option:selected").val();
+    const addOptionsAttr = $("#vehicle > option:selected").attr('no-add-opts');
     var type = $("#type");
     if (vehicleVal != 0){
         type.parent().show();
-        const filePath = '/html/' + vehicleVal + '-types.html';
+        var filePath = '/html/' + vehicleVal + '-types.html';
         type.load(filePath);
         type.val(0);
         type.trigger('change');
+        // Add add options
+        if(typeof addOptionsAttr === typeof undefined || addOptionsAttr === false) {
+            filePath = '/html/add_options/' + vehicleVal + '-add-options.html';
+            $(".add-options-container").load(filePath);
+            $(".add-options").show();
+            renumberSteps();
+        }
     } else {
         type.val(0);
         type.trigger('change');
         type.parent().hide();
+        $(".add-options").hide();
     }
     renumberSteps();
 });

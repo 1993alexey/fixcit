@@ -355,8 +355,8 @@ body{
 .service-content-wrapper .step-number .number {
   font-size: 50px;
   padding: 0 10px 0 0;
-  border-right: 1px dashed black;
-  border-radius: 0 50% 50% 0;
+  /*border-right: 1px dashed black;*/
+  /*border-radius: 0 50% 50% 0;*/
 
 }
 
