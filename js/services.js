@@ -3,6 +3,7 @@ $(document).ready(function(){
 })
 
 function renumberSteps(){
+    if ($('.step-number').css('display') == 'none') return; // don't renumber if numbers are hidden
     var steps = $('.step-number .number');
     var stepNew = 1;
     steps.each(function(){

@@ -377,3 +377,13 @@ body{
 .tg-hide {
     display: none;
 }
+
+@media (max-width: 768px) {
+    .service-content-wrapper .step-number{
+        display: none;
+    }
+
+    .service-content-wrapper .inner-content-container {
+        padding-left: 0;
+    }
+}
