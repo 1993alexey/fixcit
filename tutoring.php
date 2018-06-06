@@ -16,7 +16,7 @@
   <?php include_once 'header.php'; ?>
   <div style="height:90px"></div>
   <div class="container">
-    <div class="service-title">Wash</div>
+    <div class="service-title">Tutoring</div>
     <div class="row">
       <div class="col-md-8 col-md-push-2">
         <div class="service-content-wrapper">
@@ -28,13 +28,14 @@
                 <form>
                     <div class="form-group">
                         <div class="vertical-positioning">
-                            <label for="vehicle"><h3 class="tg-inline-blk content-title">Vehicle</h3></label>
+                            <label for="vehicle"><h3 class="tg-inline-blk content-title">Tutoring</h3></label>
                             <select class="form-control vehicle-type" id="vehicle">
-                                <option value="0">Select Vehicle</option>
-                                <option value="razor">Razor</option>
-                                <option value="trailer">Trailer</option>
-                                <option value="car">Car</option>
-                                <option value="boat">Boat</option>
+                                <option value="0">Select Tutoring</option>
+                                <option value="english">English</option>
+                                <option value="math">Math</option>
+                                <option value="biology">Biology</option>
+                                <option value="chinese">Chinese</option>
+                                <option value="russian">Russian</option>
                             </select>
                         </div>
                         <div class="vertical-positioning" style="display: none">
@@ -42,7 +43,7 @@
                                 <h3 class="content-title">Type</h3>
                             </label>
                             <select class="form-control type" id="type">
-                                <!--                                Content will be added with javascript-->
+<!--                                Content will be added with javascript-->
                             </select>
                         </div>
                         <div class="vertical-positioning" style="display: none">
