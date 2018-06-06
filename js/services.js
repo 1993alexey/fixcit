@@ -39,28 +39,25 @@ $("#type").change(function() {
 })
 
 $("#vehicle").change(function() {
-    $.ajax({
-        url:'/html/category/car-types.html',
-        type:'HEAD',
-        success: function()
-        {
-            alert('yes');
-        }
-    });
     const vehicleVal = $("#vehicle > option:selected").val();
-    const addOptionsAttr = $("#vehicle > option:selected").attr('no-add-opts');
+    const addOptionsAttr = $("#vehicle > option:selected").attr('no-add-options');
     var type = $("#type");
-    if (vehicleVal != 0){
+    if (vehicleVal != 0) {
         type.parent().show();
         var filePath = '/html/category/' + vehicleVal + '-types.html';
         type.load(filePath);
-        type.val(0);
-        type.trigger('change');
+        if (type.val()) {
+            type.val(0);
+            type.trigger('change');
+        }
         // Add add options
         if(typeof addOptionsAttr === typeof undefined || addOptionsAttr === false) {
             filePath = '/html/add_options/' + vehicleVal + '-add-options.html';
             $(".add-options-container").load(filePath);
             $(".add-options").show();
+            renumberSteps();
+        } else {
+            $(".add-options").hide();
             renumberSteps();
         }
     } else {

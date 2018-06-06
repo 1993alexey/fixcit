@@ -31,11 +31,11 @@
                             <label for="vehicle"><h3 class="tg-inline-blk content-title">Tutoring</h3></label>
                             <select class="form-control vehicle-type" id="vehicle">
                                 <option value="0">Select Tutoring</option>
-                                <option value="english">English</option>
-                                <option value="math">Math</option>
-                                <option value="biology">Biology</option>
-                                <option value="chinese">Chinese</option>
-                                <option value="russian">Russian</option>
+                                <option value="english" no-add-options>English</option>
+                                <option value="math" no-add-options>Math</option>
+                                <option value="biology" no-add-options>Biology</option>
+                                <option value="chinese" no-add-options>Chinese</option>
+                                <option value="russian" no-add-options>Russian</option>
                             </select>
                         </div>
                         <div class="vertical-positioning" style="display: none">

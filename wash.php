@@ -31,10 +31,10 @@
                             <label for="vehicle"><h3 class="tg-inline-blk content-title">Vehicle</h3></label>
                             <select class="form-control vehicle-type" id="vehicle">
                                 <option value="0">Select Vehicle</option>
-                                <option value="razor">Razor</option>
-                                <option value="trailer">Trailer</option>
-                                <option value="car">Car</option>
-                                <option value="boat">Boat</option>
+                                <option value="razor" add-opts>Razor</option>
+                                <option value="trailer" add-opts>Trailer</option>
+                                <option value="car" add-opts>Car</option>
+                                <option value="boat" add-opts>Boat</option>
                             </select>
                         </div>
                         <div class="vertical-positioning" style="display: none">
@@ -42,7 +42,7 @@
                                 <h3 class="content-title">Type</h3>
                             </label>
                             <select class="form-control type" id="type">
-                                <!--                                Content will be added with javascript-->
+<!--                                <option value="0">Select Specifics</option>-->
                             </select>
                         </div>
                         <div class="vertical-positioning" style="display: none">
