@@ -387,3 +387,8 @@ body{
         padding-left: 0;
     }
 }
+
+.star-information {
+    font-size: 80%;
+    color: #736e6e;
+}

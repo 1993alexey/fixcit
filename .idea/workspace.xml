@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f630ce5-8890-4c83-be7f-2ea6432e090f" name="Default" comment="Reorganized the service order page">
-      <change afterPath="$PROJECT_DIR$/html/category/biology-types.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/category/chinese-types.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/category/math-types.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/category/russian-types.html" afterDir="false" />
+    <list default="true" id="53edea19-2170-4cb7-94f4-f1ec5d6c4184" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fixcit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fixcit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/wash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutoring.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutoring.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wash.php" beforeDir="false" afterPath="$PROJECT_DIR$/wash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/service.php" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,105 +21,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/services.js">
+    <leaf>
+      <file leaf-file-name="practice.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+            <state relative-caret-position="328">
+              <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tutoring.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutoring.php">
+      <file leaf-file-name="dog.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+            <state relative-caret-position="260">
+              <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="russian-types.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/category/russian-types.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="723">
+              <caret line="392" column="19" selection-start-line="392" selection-start-column="19" selection-end-line="392" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="math-types.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/category/math-types.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="biology-types.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/category/biology-types.html">
+      <file leaf-file-name="service.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chinese-types.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/category/chinese-types.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chinese.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chinese.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="75" selection-start-line="75" selection-end-line="78" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="biology.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/biology.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="75" selection-start-line="75" selection-end-line="78" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="math.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/math.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="75" selection-start-line="75" selection-end-line="78" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="russian.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/russian.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="75" selection-start-line="75" selection-end-line="78" selection-end-column="52" />
+            <state relative-caret-position="1330">
+              <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>tg-hide</find>
-      <find>type</find>
-      <find>include_once</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,22 +79,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wash2.php" />
-        <option value="$PROJECT_DIR$/html/razor-types.html" />
-        <option value="$PROJECT_DIR$/html/car-types.html" />
-        <option value="$PROJECT_DIR$/html/boat-types.html" />
-        <option value="$PROJECT_DIR$/html/trallor-types.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/service.php" />
-        <option value="$PROJECT_DIR$/js/turbota_city.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/html/category/english-types.html" />
-        <option value="$PROJECT_DIR$/wash.php" />
-        <option value="$PROJECT_DIR$/js/services.js" />
-        <option value="$PROJECT_DIR$/tutoring.php" />
-        <option value="$PROJECT_DIR$/html/category/russian-types.html" />
-        <option value="$PROJECT_DIR$/html/category/math-types.html" />
-        <option value="$PROJECT_DIR$/html/category/biology-types.html" />
-        <option value="$PROJECT_DIR$/html/category/chinese-types.html" />
+        <option value="$PROJECT_DIR$/practice.php" />
+        <option value="$PROJECT_DIR$/dog.php" />
       </list>
     </option>
   </component>
@@ -157,24 +96,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
-    <include_path>
-      <path value="C:/wamp/bin/php/php7.1.9" />
-    </include_path>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-21" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="977" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,38 +119,23 @@
               <item name="fixcit" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fixcit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fixcit" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fixcit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fixcit" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="category" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fixcit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fixcit" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/wamp/bin/php/php7.1.9/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\alexey\Documents\Projects\fixcit\html\category" />
-      <recent name="C:\Users\alexey\Documents\Projects\fixcit\html" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,312 +150,91 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="wash2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/wash2.php" />
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1f630ce5-8890-4c83-be7f-2ea6432e090f" name="Default" comment="" />
-      <created>1527808575301</created>
+      <changelist id="53edea19-2170-4cb7-94f4-f1ec5d6c4184" name="Default" comment="" />
+      <created>1528733419299</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1527808575301</updated>
-      <workItem from="1527808577608" duration="222000" />
-      <workItem from="1527809215436" duration="2363000" />
-      <workItem from="1527860892616" duration="600000" />
-      <workItem from="1527883375223" duration="8134000" />
-      <workItem from="1528128393645" duration="12717000" />
-      <workItem from="1528208657043" duration="6708000" />
-      <workItem from="1528237472362" duration="3173000" />
-      <workItem from="1528311139877" duration="2668000" />
+      <updated>1528733419299</updated>
+      <workItem from="1528733421283" duration="6551000" />
     </task>
-    <task id="LOCAL-00001" summary="Reorganized the service order page">
-      <created>1527811443006</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1527811443006</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Reorganized the service order page">
-      <created>1527811545648</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1527811545648</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36585000" />
+    <option name="totallyTimeSpent" value="6551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.134375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915523" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reorganized the service order page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganized the service order page" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/turbota_city.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501400">
-          <caret line="20056" column="12" selection-start-line="20056" selection-start-column="12" selection-end-line="20056" selection-end-column="12" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
+        <state relative-caret-position="1330">
+          <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/car-types.html" />
-    <entry file="file://$PROJECT_DIR$/html/trallor-types.html" />
-    <entry file="file://$PROJECT_DIR$/html/boat-types.html" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8625">
-          <caret line="345" column="39" lean-forward="true" selection-start-line="345" selection-start-column="39" selection-end-line="345" selection-end-column="39" />
+        <state relative-caret-position="723">
+          <caret line="392" column="19" selection-start-line="392" selection-start-column="19" selection-end-line="392" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wash.php">
+    <entry file="file://$PROJECT_DIR$/practice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3200">
-          <caret line="128" column="79" lean-forward="true" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
+        <state relative-caret-position="328">
+          <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wash2.php" />
-    <entry file="file://$PROJECT_DIR$/js/turbota_city.js">
+    <entry file="file://$PROJECT_DIR$/dog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/car-types.html" />
-    <entry file="file://$PROJECT_DIR$/html/trallor-types.html" />
-    <entry file="file://$PROJECT_DIR$/trallor.php" />
-    <entry file="file://$PROJECT_DIR$/car.php" />
-    <entry file="file://$PROJECT_DIR$/html/boat-types.html" />
-    <entry file="file://$PROJECT_DIR$/boat.php" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9400">
-          <caret line="376" column="17" selection-start-line="376" selection-start-column="17" selection-end-line="376" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wash2.php" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8125">
-          <caret line="325" column="18" selection-start-line="325" selection-start-column="18" selection-end-line="325" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wash2.php" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8125">
-          <caret line="325" column="18" lean-forward="true" selection-start-line="325" selection-start-column="18" selection-end-line="325" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wash2.php" />
-    <entry file="file://$PROJECT_DIR$/boat.php" />
-    <entry file="file://$PROJECT_DIR$/trallor.php" />
-    <entry file="file://$PROJECT_DIR$/html/razor-types.html" />
-    <entry file="file://$PROJECT_DIR$/html/boat-types.html" />
-    <entry file="file://$PROJECT_DIR$/html/trallor-types.html" />
-    <entry file="file://$PROJECT_DIR$/wash2.php" />
-    <entry file="file://$PROJECT_DIR$/html/car-types.html" />
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501075">
-          <caret line="20056" column="12" selection-start-line="20056" selection-start-column="12" selection-end-line="20056" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car.php" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9075">
-          <caret line="363" column="16" selection-start-line="363" selection-start-column="16" selection-end-line="363" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/category/english-types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/wash.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="64" column="14" selection-start-line="63" selection-start-column="16" selection-end-line="64" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/english-college-specifics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/turbota_city.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/english.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="75" selection-start-line="75" selection-end-line="79" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutoring.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/russian.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="75" selection-start-line="75" selection-end-line="78" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/category/russian-types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="75" selection-start-line="75" selection-end-line="78" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/category/math-types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biology.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="75" selection-start-line="75" selection-end-line="78" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/category/biology-types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chinese.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="75" selection-start-line="75" selection-end-line="78" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/category/chinese-types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        <state relative-caret-position="260">
+          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
         </state>
       </provider>
     </entry>

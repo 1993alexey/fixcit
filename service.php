@@ -56,7 +56,7 @@
           </div>
         </div>
       </div>-->
-      <a href="biology.php" class="service-box-link">
+      <a href="/dog.php" class="service-box-link">
         <div class="col-md-4 col-sm-6">
           <div class="serviceBox">
               <div class="service-icon"><i class="fa fi-guide-dog"></i></div>
@@ -83,7 +83,7 @@
           </div>
         </div>
       </a>
-      <a href="practice.php">
+      <a href="/practice.php">
         <div class="col-md-4 col-sm-6">
           <div class="serviceBox">
             <div class="service-icon"><i class="fas fa-table-tennis"></i></div>
