@@ -1,9 +1,9 @@
 $(document).ready(function(){
     renumberSteps();
-})
+});
 
 function renumberSteps(){
-    if ($('.step-number').css('display') == 'none') return; // don't renumber if numbers are hidden
+    if ($('.step-number').css('display') === 'none') return; // don't renumber if numbers are hidden
     const steps = $('.step-number .number');
     let stepNew = 1;
     steps.each(function(){
@@ -14,20 +14,21 @@ function renumberSteps(){
 }
 
 $(".meridiems").click(function() {
-  $(this).text($(this).text() == 'PM' ? 'AM' : 'PM');
-})
+  $(this).text($(this).text() === 'PM' ? 'AM' : 'PM');
+});
 
 $(".day-time .time li").click(function() {
     const value = $(this).text();
     $(this).parent().parent().find("button > .display").text(value);
-})
+});
 
 $("#type").change(function() {
-    const typeVal = $("#type > option:selected").val();
+    const typeSelected = $("#type > option:selected");
     const vehicleVal = $("#vehicle > option:selected").val();
-    const noSpecifics = $("#type > option:selected").attr('no-specifics');
     const specifics = $("#specifics");
-    if (typeVal != 0 && (typeof noSpecifics === typeof undefined || noSpecifics === false)){
+    const typeVal = typeSelected.val();
+    const noSpecifics = typeSelected.attr('no-specifics');
+    if (typeVal !== 0 && (typeof noSpecifics === typeof undefined || noSpecifics === false)){
         const filePath = '/html/' + vehicleVal + "-" + typeVal + '-specifics.html';
         specifics.load(filePath);
         specifics.parent().show();
@@ -36,13 +37,15 @@ $("#type").change(function() {
         specifics.parent().hide();
     }
     renumberSteps();
-})
+});
 
 $("#vehicle").change(function() {
-    const vehicleVal = $("#vehicle > option:selected").val();
-    const addOptionsAttr = $("#vehicle > option:selected").attr('no-add-options');
+    const vehicleSelected = $("#vehicle > option:selected");
+    const vehicleVal = vehicleSelected.val();
+    const addOptionsAttr = vehicleSelected.attr('no-add-options');
     const type = $("#type");
-    if (vehicleVal != 0) {
+    const addOptions = $(".add-options");
+    if (vehicleVal !== 0) {
         type.parent().show();
         let filePath = '/html/category/' + vehicleVal + '-types.html';
         type.load(filePath);
@@ -54,39 +57,28 @@ $("#vehicle").change(function() {
         if(typeof addOptionsAttr === typeof undefined || addOptionsAttr === false) {
             filePath = '/html/add_options/' + vehicleVal + '-add-options.html';
             $(".add-options-container").load(filePath);
-            $(".add-options").show();
+            addOptions.show();
             renumberSteps();
         } else {
-            $(".add-options").hide();
+            addOptions.hide();
             renumberSteps();
         }
     } else {
         type.val(0);
         type.trigger('change');
         type.parent().hide();
-        $(".add-options").hide();
+        addOptions.hide();
     }
     renumberSteps();
 });
 
-function toggleSelectGroup(checkItem, toggleItem){
-    // Check for availability of specifics
-    const noSpecifics = checkItem.attr('no-specifics');
-    if (typeof noSpecifics !== typeof undefined && noSpecifics !== false) {
-        toggleItem.parent().hide();
-        return 0;
-    } else {
-        toggleItem.parent().show();
-        return 1;
-    }
-}
-
 $("#care-type").change(function(){
     const typeVal = $(this).val();
-    if (typeVal == 'walk' || typeVal == 'day-care'){
-        $(".length").show();
+    const lengthControl = $(".length");
+    if (typeVal === 'walk' || typeVal === 'day-care'){
+        lengthControl.show();
     } else {
-        $(".length").hide();
+        lengthControl.hide();
     }
 
-})
+});
