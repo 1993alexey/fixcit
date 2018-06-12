@@ -34,6 +34,7 @@
                                 <option value="walk">Walk</option>
                                 <option value="wash">Wash</option>
                                 <option value="day-care">Day Care</option>
+                                <option value="grooming">Grooming</option>
                             </select>
                         </div>
                     </div>

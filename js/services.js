@@ -4,8 +4,8 @@ $(document).ready(function(){
 
 function renumberSteps(){
     if ($('.step-number').css('display') == 'none') return; // don't renumber if numbers are hidden
-    var steps = $('.step-number .number');
-    var stepNew = 1;
+    const steps = $('.step-number .number');
+    let stepNew = 1;
     steps.each(function(){
         if ($(this).parent().parent().css('display') !== 'none'){
             $(this).text(stepNew++);
@@ -18,15 +18,15 @@ $(".meridiems").click(function() {
 })
 
 $(".day-time .time li").click(function() {
-  var value = $(this).text();
-  $(this).parent().parent().find("button > .display").text(value);
+    const value = $(this).text();
+    $(this).parent().parent().find("button > .display").text(value);
 })
 
 $("#type").change(function() {
     const typeVal = $("#type > option:selected").val();
     const vehicleVal = $("#vehicle > option:selected").val();
     const noSpecifics = $("#type > option:selected").attr('no-specifics');
-    var specifics = $("#specifics");
+    const specifics = $("#specifics");
     if (typeVal != 0 && (typeof noSpecifics === typeof undefined || noSpecifics === false)){
         const filePath = '/html/' + vehicleVal + "-" + typeVal + '-specifics.html';
         specifics.load(filePath);
@@ -41,10 +41,10 @@ $("#type").change(function() {
 $("#vehicle").change(function() {
     const vehicleVal = $("#vehicle > option:selected").val();
     const addOptionsAttr = $("#vehicle > option:selected").attr('no-add-options');
-    var type = $("#type");
+    const type = $("#type");
     if (vehicleVal != 0) {
         type.parent().show();
-        var filePath = '/html/category/' + vehicleVal + '-types.html';
+        let filePath = '/html/category/' + vehicleVal + '-types.html';
         type.load(filePath);
         if (type.val()) {
             type.val(0);
@@ -82,8 +82,8 @@ function toggleSelectGroup(checkItem, toggleItem){
 }
 
 $("#care-type").change(function(){
-    var typeVal = $(this).val();
-    if (typeVal !== 'walk' && typeVal !== '0'){
+    const typeVal = $(this).val();
+    if (typeVal == 'walk' || typeVal == 'day-care'){
         $(".length").show();
     } else {
         $(".length").hide();
