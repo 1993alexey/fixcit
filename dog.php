@@ -28,8 +28,8 @@
                 <form>
                     <div class="form-group">
                         <div class="vertical-positioning">
-                            <label for="vehicle"><h3 class="tg-inline-blk content-title">Care type</h3></label>
-                            <select class="form-control vehicle-type">
+                            <label for="care-type"><h3 class="tg-inline-blk content-title">Care type</h3></label>
+                            <select class="form-control vehicle-type" id="care-type">
                                 <option value="0">Select care</option>
                                 <option value="walk">Walk</option>
                                 <option value="wash">Wash</option>
@@ -48,34 +48,33 @@
                     <form>
                         <div class="form-group">
                             <div class="vertical-positioning">
-                                <label for="vehicle"><h3 class="tg-inline-blk content-title">Size</h3></label>
-                                <select class="form-control vehicle-type">
+                                <label for="size"><h3 class="tg-inline-blk content-title">Size</h3></label>
+                                <select class="form-control vehicle-type" id="size">
                                     <option value="0">Select Level</option>
                                     <option value="big">Big</option>
                                     <option value="medium">Medium</option>
                                     <option value="small">Small</option>
                                 </select>
                             </div>
-                            <div class="vertical-positioning">
-                                <label for="vehicle"><h3 class="tg-inline-blk content-title">Length</h3></label>
-                                <select class="form-control vehicle-type">
+                            <div class="vertical-positioning length" style="display:none">
+                                <label for="length"><h3 class="tg-inline-blk content-title">Length</h3></label>
+                                <select class="form-control vehicle-type" id="length">
                                     <option value="0">Select Length</option>
                                     <option value="30-min">30 Minutes</option>
-                                    <option value="1-hour">1 Hour</option>
+                                    <option value="1-hour">1.0 Hour</option>
                                     <option value="1.5-hours">1.5 Hours</option>
-                                    <option value="2-hours">2 Hours</option>
-                                    <option value="3-hours">3 Hours</option>
-                                    <option value="4-hours">4 Hours</option>
-                                    <option value="5-hours">5 Hours</option>
-                                    <option value="6-hours">6 Hours</option>
-                                    <option value="7-hours">7 Hours</option>
-                                    <option value="8-hours">8 Hours</option>
+                                    <option value="2-hours">2.0 Hours</option>
+                                    <option value="3-hours">3.0 Hours</option>
+                                    <option value="4-hours">4.0 Hours</option>
+                                    <option value="5-hours">5.0 Hours</option>
+                                    <option value="6-hours">6.0 Hours</option>
+                                    <option value="7-hours">7.0 Hours</option>
+                                    <option value="8-hours">8.0 Hours</option>
                                 </select>
                             </div>
                             <div class="vertical-positioning">
-                                <label for="vehicle"><h3 class="tg-inline-blk content-title">* Location</h3></label>
-                                <input type="text" class="form-control" id="location" placeholder="Ex. 538 S 2nd W">
-                                <span class="star-information">* Fill out only if location is different from your home address</span>
+                                <label for="breed"><h3 class="tg-inline-blk content-title">Breed</h3></label>
+                                <input type="text" class="form-control" id="breed" placeholder="Type in">
                             </div>
                         </div>
                     </form>

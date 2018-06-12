@@ -80,3 +80,13 @@ function toggleSelectGroup(checkItem, toggleItem){
         return 1;
     }
 }
+
+$("#care-type").change(function(){
+    var typeVal = $(this).val();
+    if (typeVal !== 'walk' && typeVal !== '0'){
+        $(".length").show();
+    } else {
+        $(".length").hide();
+    }
+
+})
