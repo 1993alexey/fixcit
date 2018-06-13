@@ -28,10 +28,16 @@ $("#type").change(function() {
     const specifics = $("#specifics");
     const typeVal = typeSelected.val();
     const noSpecifics = typeSelected.attr('no-specifics');
-    if (typeVal !== 0 && (typeof noSpecifics === typeof undefined || noSpecifics === false)){
+    if (typeVal !== '0' && (typeof noSpecifics === typeof undefined || noSpecifics === false)){
         const filePath = '/html/' + vehicleVal + "-" + typeVal + '-specifics.html';
         specifics.load(filePath);
         specifics.parent().show();
+        // If type is school, change type specifics to grade
+        if (typeVal === "school"){
+            $(".content-title.type-specifics").text("Grade");
+        } else {
+            $(".content-title.type-specifics").text("Type Specifics");
+        }
     } else {
         specifics.val(0);
         specifics.parent().hide();
@@ -45,7 +51,7 @@ $("#vehicle").change(function() {
     const addOptionsAttr = vehicleSelected.attr('no-add-options');
     const type = $("#type");
     const addOptions = $(".add-options");
-    if (vehicleVal !== 0) {
+    if (vehicleVal !== '0') {
         type.parent().show();
         let filePath = '/html/category/' + vehicleVal + '-types.html';
         type.load(filePath);

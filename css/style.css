@@ -100,7 +100,7 @@ body{
 }
 
 .btn-employ:focus{
-  background-color:#edd542; 
+  background-color:#edd542;
 }
 
 .btn-work:hover{
@@ -271,11 +271,10 @@ body{
 
 .dropdown-menu{
   min-width: 50px;
-  margin-top: 10px;
 }
 
 .dropdown{
-  display: inline;
+  display: inline-block;
 }
 
 #move-down{
@@ -328,7 +327,8 @@ body{
   margin-top: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .service-content-wrapper label{
@@ -344,12 +344,12 @@ body{
 }
 
 .service-content-wrapper .step-number {
-  
+
 }
 
 .service-content-wrapper .inner-content-container {
   flex: 100%;
-  padding-left: 20px; 
+  padding-left: 20px;
 }
 
 .service-content-wrapper .step-number .number {
@@ -365,7 +365,7 @@ body{
 }
 
 .service-content-wrapper .inner-content-container .day-time {
-  
+
 }
 
 .service-content-wrapper .inner-content-container .vertical-positioning {
@@ -390,5 +390,6 @@ body{
 
 .star-information {
     font-size: 80%;
+    color: #736e6e;
     color: #736e6e;
 }

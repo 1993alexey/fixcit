@@ -48,7 +48,7 @@
                         </div>
                         <div class="vertical-positioning" style="display: none">
                             <label for="specifics">
-                                <h3 class="content-title">Type Specifics</h3>
+                                <h3 class="content-title type-specifics">Type Specifics</h3>
                             </label>
                             <select class="form-control type" id="specifics">
                                 <option>Select Specifics</option>
@@ -127,9 +127,9 @@
             </div>
             <div class="inner-content-container">
               <label for="comment">
-                <h3 class="content-title">Comment:</h3>
+                <h3 class="content-title">Comment</h3>
               </label>
-              <textarea class="form-control" rows="5" id="comment"></textarea>
+              <textarea class="form-control" rows="5" id="comment" maxlength="1000" placeholder="Type in your comment"></textarea>
               <div class="tg-center">
                 <br>
                 <h4 class="price-tag"><span>Total: </span><span class="price-amount">5.50</span>$</h4>

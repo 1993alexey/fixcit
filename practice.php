@@ -11,6 +11,7 @@
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="foundation-icons/foundation-icons.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="page-service">
   <?php include_once 'header.php'; ?>
@@ -72,7 +73,7 @@
                             </div>
                             <div class="vertical-positioning">
                                 <label for="vehicle"><h3 class="tg-inline-blk content-title">* Location</h3></label>
-                                <input type="text" class="form-control" id="location" placeholder="Ex. 538 S 2nd W">
+                                <input type="text" class="form-control" id="location" placeholder="Ex. 538 S 2nd W" maxlength="100">
                                 <span class="star-information">* Fill out only if location is different from your home address</span>
                             </div>
                         </div>
@@ -133,15 +134,16 @@
               </div>
             </div>
           </div>
+
           <div class="service-inner-wrapper">
             <div class="step-number">
               <div class="number"></div>
             </div>
             <div class="inner-content-container">
               <label for="comment">
-                <h3 class="content-title">Comment:</h3>
+                <h3 class="content-title">Comment</h3>
               </label>
-              <textarea class="form-control" rows="5" id="comment"></textarea>
+              <textarea class="form-control" rows="5" id="comment" maxlength="1000" placeholder="Type in your comment"></textarea>
               <div class="tg-center">
                 <br>
                 <h4 class="price-tag"><span>Total: </span><span class="price-amount">5.50</span>$</h4>

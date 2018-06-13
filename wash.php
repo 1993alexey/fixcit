@@ -126,9 +126,9 @@
             </div>
             <div class="inner-content-container">
               <label for="comment">
-                <h3 class="content-title">Comment:</h3>
+                <h3 class="content-title">Comment</h3>
               </label>
-              <textarea class="form-control" rows="5" id="comment"></textarea>
+              <textarea class="form-control" rows="5" id="comment" maxlength="1000" placeholder="Type in your comment"></textarea>
               <div class="tg-center">
                 <br>
                 <h4 class="price-tag"><span>Total: </span><span class="price-amount">5.50</span>$</h4>
