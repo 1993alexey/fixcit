@@ -91,11 +91,11 @@
           </div>
         </div>
       </a>
-      <a href="land-scaping.php">
+      <a href="landscaping.php">
         <div class="col-md-4 col-sm-6">
           <div class="serviceBox">
             <div class="service-icon"><i class="fa fa-leaf"></i></div>
-            <h3 class="title">Land Scaping</h3>
+            <h3 class="title">Landscaping</h3>
           </div>
         </div>
       </a>

@@ -16,7 +16,7 @@
   <?php include_once 'header.php'; ?>
   <div style="height:90px"></div>
   <div class="container">
-    <div class="service-title">Dog Care</div>
+    <div class="service-title">Exterior Home Care</div>
     <div class="row">
       <div class="col-md-8 col-md-push-2">
         <div class="service-content-wrapper">
@@ -28,13 +28,14 @@
                 <form>
                     <div class="form-group">
                         <div class="vertical-positioning">
-                            <label for="care-type"><h3 class="tg-inline-blk content-title">Care type</h3></label>
-                            <select class="form-control" id="care-type">
+                            <label for="care-type"><h3 class="tg-inline-blk content-title">Care Type</h3></label>
+                            <select class="form-control">
                                 <option value="0">Select care</option>
-                                <option value="walk">Walk</option>
-                                <option value="wash">Wash</option>
-                                <option value="day-care">Day Care</option>
-                                <option value="grooming">Grooming</option>
+                                <option value="window-wash">Window Was</option>
+                                <option value="rain-gutters">Rain Gutters</option>
+                                <option value="power-wash">Power Wash</option>
+                                <option value="lan-moving">Lan Mowing</option>
+                                <option value="planting">Planting</option>
                             </select>
                         </div>
                     </div>
